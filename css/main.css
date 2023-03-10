@@ -21,11 +21,11 @@ text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
 	font-size: 48px;
     font-weight: 400;
     margin: 6px 0 20px;
-    color: #FFF;
+    color: #000;
 }
 
 .heading p {
-	    color: #fff;
+	    color: #000;
     font-size: 20px;
     font-weight: 350;
     line-height: 1.4em;
@@ -134,6 +134,15 @@ text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
 	font-style: italic;
 	color: #FFF;
 }
+
+.descr-texte-alt {
+	text-align: center;
+	font-size: 1.45vmax;
+	line-height: 1.2em;
+	font-style: italic;
+	color: #000;
+}
+
 
 .copyright {
 color: #FFF;
