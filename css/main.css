@@ -227,14 +227,13 @@ padding-top: 20px;
 	}
 
 	.heading h3 {
+		color: #000;
 		font-size: 22px;
 	    font-weight: 400;
 	    margin: 6px 0 20px;
-	    color: #FFF;
 	}
 
 	.heading p {
-		    color: #fff;
 	    font-size: 20px;
 	    font-weight: 350;
 	    line-height: 1.4em;
@@ -260,6 +259,11 @@ padding-top: 20px;
   	padding: 15px;
   	margin: 10px;
 
+}
+
+.heading {
+position: relative;
+top: 10%;
 }
 
 
