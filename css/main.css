@@ -88,12 +88,9 @@ text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
 }
 
 .marble-bg {
-	background-image: url(../img/bg.JPG);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #edece2;
 
 }
-
 
 .double-quotes {
 	z-index: 999;
