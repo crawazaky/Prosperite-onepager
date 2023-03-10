@@ -28,6 +28,26 @@
       <!-- Modernizer Script for old Browsers -->
       <script src="js/modernizr-2.6.2.min.js"></script>
 
+    <style>
+      #arrow {
+        position: relative;
+        animation: moveArrow 1s ease-in-out infinite alternate;
+        transform: rotate(180deg); /* Add this line to rotate the arrow */
+      }
+      
+      @keyframes moveArrow {
+        0% {
+          top: 0px;
+        }
+        50% {
+          top: 10px;
+        }
+        100% {
+          top: 0px;
+        }
+      }
+    </style>
+
 </head>
 <body id="body">
 
@@ -43,11 +63,27 @@
         <div class="heading">
 
               <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated"><img src="img/logo-gold.png" alt="" class="main-logo"></h2>
-              <h3 data-wow-duration="1000ms" class="wow slideInLeft animated">A <span class="color">decentralised</span> finance company.</h3>
-              <p data-wow-duration="1200ms" class="wow slideInRight animated" class="subtagline">Revolutionising the old markets through <b>digital assets</b>, specialist in <b>tokenising gold</b> and other <b>real world assets.</b></p>
-              <div data-wow-duration="1000ms" class="wow slideInLeft animated knowmore">
-                  <span>Want to know more?</span>
-                  <a href="mailto:info@auresources.io"><i class="fa-solid fa-envelope" style="padding: 0 5px 0 5px"></i>Get in touch with our representatives.</a>
+              <h3 data-wow-duration="1000ms" class="wow slideInLeft animated">A <span class="color">Ethically</span> mined gold.</h3>
+              <p data-wow-duration="1200ms" class="wow slideInRight animated" class="subtagline">At Prosperite, we are proud to introduce a <b>revolutionary</b> and <b>unparalleled
+approach to the gold mining industry</b> through our proprietary method of
+<b>Micro-Mining</b></p>
+
+
+
+<div class="learnmore pt-5 wow fadeInUp animated" data-wow-duration="750ms" data-wow-delay="500ms">
+<span class="color">LEARN MORE</span>
+  
+
+  <p class="pt-0">  
+  <svg id="arrow" width="100" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M 50 10 L 90 60 Q 90 70 80 70 L 20 70 Q 10 70 10 60 L 50 10" fill="#333" stroke="none" stroke-width="0" />
+    </svg>
+  </p>
+
+</div>
+              <div data-wow-duration="1000ms" class="wow slideInLeft animated knowmore" style="display: none;">
+                  <span>Interested to know more?</span>
+                  <a href="mailto:info@auresources.io"><i class="fa-solid fa-envelope" style="padding: 0 5px 0 5px"></i>Reach AuResources for more details about our offering</a>
                 </div>
         </div>
 
@@ -65,10 +101,9 @@
     <div class="col-xl-6 p-0 order-xl-first">
       <div class="double-quotes">
         <p data-wow-duration="1000ms" class="wow slideInLeft animated p-4 descr-texte">
-          <span style="font-weight: 600;">Prosperite's Kokoyon mine in Mali holds a special place in the history of AuResources. It is where everything started.</span> 
-          Its gold will be the first commodity that AuResources will tokenise, providing investors with a new and exciting opportunity to invest in the precious metal market.  
+          <span style="font-weight: 600;">Prosperite Ltd. is a unique, innovative solution to the traditional gold mining landscape.</span> We are proud to introduce a revolutionary and unparalleled approach to the gold mining industry through our proprietary method of Micro-Mining. 
           <br/><br/>
-          <span style="font-weight: 600;">The team at AuResources is excited to continue their work in Mali and bring their innovative investment solutions to the global market.</span>
+        After ten years of learning, building, and getting on-the-ground experience in Africa’s gold mines, <span style="font-weight: 600;">we’ve discovered a sustainable and cost-efficient method of mining</span> that allowed us to successfully source and develop a profitable gold mining venture without the constraints of large corporate mining operations.”
         </p>
       </div>
     </div>
@@ -79,45 +114,81 @@
       <img src="./img/home-img.JPG" style="width: 100%;">
     </div>
     <div class="col-xl-6 p-0">
-      <div class="double-quotes">
+      <div class="double-quotes-alt">
         <p data-wow-duration="1000ms" class="wow slideInRight animated p-4 descr-texte-alt">
-          <span style="font-weight: 600;">Prosperite is a dedicated team focused on responsible mining practices.</span> 
-          Their on the ground expertise in mining ensures that every step of the process is carried out with care and attention to detail. 
-          <br/><br/>
-          They are working tirelessly to <span style="font-weight: 600;">get the gold from the ground to your digital wallet.</span>
+          <span style="font-weight: 600;">As a dedicated team, we bring extensive on-the-ground expertise to the table.</span> We understand that mining is a complex process that requires careful planning and execution to ensure the safety of our workers and the surrounding environment. 
+            <br/><br/>
+            Our team is committed to carrying out every step of the mining process with <span style="font-weight: 600;">care and attention to detail.</span> By leveraging our experience and expertise, we are able to minimize the impact of our mining operations while <span style="font-weight: 600;">maximizing the benefits for all stakeholders involved.</span>
+          
+
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row align-items-center justify-content-center gold-gb p-0 m-0">
+
+    <div class="col-xl-6 p-0">
+      <img src="./img/home-img-3.JPG" style="width: 100%;">
+
+    </div>
+    <div class="col-xl-6 p-0 order-xl-first">
+      <div class="double-quotes">
+        <p data-wow-duration="1000ms" class="wow slideInLeft animated p-4 descr-texte">
+          <span style="font-weight: 600;">We recognize the significant impact that mining can have on the environment and local communities</span>, and we are committed to minimizing that impact through sustainable and ethical practices. This includes <span style="font-weight: 600;">engaging with local communities</span> to ensure that our mining operations are socially responsible and respectful of their needs.<br/><br/>
+          We believe that responsible mining is not only the right thing to do, but it also helps us to <span style="font-weight: 600;">build a more sustainable and prosperous future for everyone involved.</span>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row align-items-center justify-content-center marble-bg p-0 m-0">
+    <div class="col-xl-6 p-0">
+      <img src="./img/home-img-4.JPG" style="width: 100%;">
+    </div>
+    <div class="col-xl-6 p-0">
+      <div class="double-quotes-alt">
+        <p data-wow-duration="1000ms" class="wow slideInRight animated p-4 descr-texte-alt">
+          <span style="font-weight: 600;">We are modernizing gold mining by embracing the web3 era and transforming our future gold production into a digital asset through tokenization.</span> This innovative approach offers a variety of exciting benefits for both mining companies and investors.
+<br/><br/>
+By creating a digital asset that represents our future gold production, investors can now access a wider range of possibilities. This new approach is <span style="font-weight: 600;">incredibly transparent and efficient, making it a game-changer in the industry.</span>
+          
+
         </p>
       </div>
     </div>
     <div class="separator"></div> 
   </div>
+
+
   <footer id="footer" class="footer gold-gb">
     <div class="container">
     <div class="row">
     
-      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+      <div class="col-md-4 col-sm-8 col-xs-16 wow fadeInUp animated" data-wow-duration="500ms">
         <div class="footer-single">
-          <img src="img/logo-white.png" alt="" style="width: 100%;">
-          <p>AuResources AG is a company registered in Switzerland that serves as the issuer of Prosperite's digital assets, both gold and gold backed futures.</p>
+          
+          <p style="display: none;">AuResources AG is a company registered in Switzerland that serves as the issuer of Prosperite's digital assets, both gold and gold backed futures.</p>
         </div>
       </div>
     
-      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+      <div class="col-md-4 col-sm-8 col-xs-16 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
         <div class="footer-single">
-
+<img src="img/logo-white.png" alt="" style="width: 100%;">
         </div>
       </div>
 
     
-      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+      <div class="col-md-4 col-sm-8 col-xs-16 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
         <div class="footer-single">
 
         </div>
       </div>
       
 
-      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-
-      </div>
 
     </div>
     <div class="row">

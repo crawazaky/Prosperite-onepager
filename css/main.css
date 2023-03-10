@@ -24,6 +24,16 @@ text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
     color: #000;
 }
 
+.learnmore {
+
+}
+
+.learnmore span{
+	font-weight: 600;
+	font-size: 30px;
+}
+
+
 .heading p {
 	    color: #000;
     font-size: 20px;
@@ -92,7 +102,7 @@ text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
 
 }
 
-.double-quotes {
+.double-quotes, .double-quotes-alt {
 	z-index: 999;
   	position: relative;
   	padding: 20px;
@@ -100,10 +110,46 @@ text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
 
 }
 
-.double-quotes p {
+
+
+.double-quotes, .double-quotes-alt p {
   	z-index: 1;
     position: relative;
 }
+
+.double-quotes-alt:before {
+	color: #000;	
+	content: '“';
+	position: absolute;
+	font-size: 250px;
+	opacity: 0.3;
+	font-family: "Catamaran";
+	top: -70px;
+	left: 0;
+}
+
+.double-quotes-alt:after {
+	color: #000;
+	bottom: -70px;
+	right: 0;
+	content: '„';
+	position: absolute;
+	font-size: 250px;
+	opacity: 0.3;
+	font-family: "Catamaran";	
+}
+
+.double-quotes:after {
+	color: #FFF;
+	bottom: -70px;
+	right: 0;
+	content: '„';
+	position: absolute;
+	font-size: 250px;
+	opacity: 0.3;
+	font-family: "Catamaran";
+}
+
 
 .double-quotes:before {
 	color: #FFF;	
@@ -210,10 +256,11 @@ padding-top: 20px;
 	    top: -8px;
 	}
 
-.double-quotes {
+.double-quotes, .double-quotes-alt {
   	padding: 15px;
   	margin: 10px;
 
 }
+
 
 }
