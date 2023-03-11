@@ -7,6 +7,17 @@
 	color: #bf8f24;
 
 }
+
+.boxe-link a {
+	color: #bf8f24;
+
+}
+
+.boxe-link a:hover {
+	color: #000;
+
+}
+
 .heading {
 position: relative;
 top: 20%;
